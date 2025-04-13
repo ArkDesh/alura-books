@@ -37,3 +37,39 @@
     background-position: 1px;
     padding-left: 1.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    
+    .cadastro {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5em 1.5em 2.5em;
+    }
+
+    .cadastro__container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .cadastro__email {
+        width: 70%;
+    }
+
+    .cadastro__titulo {
+        font-size: 24px;
+    }
+
+    .cadastro__texto {
+        font-weight: 300;
+        margin-top: 1.1em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .cadastro {
+        padding: 4em 12em;
+    }
+}

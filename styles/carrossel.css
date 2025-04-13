@@ -8,7 +8,7 @@
 }
 
 .swiper-slide img {
-    width: 11.2em;
+    width: 100%;
 }
 
 .swiper-button-next, .swiper-button-prev {
@@ -21,6 +21,7 @@
 }
 
 .card {
+    display: block;
     background-color: var(--branco);
     border-radius: 5px;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -81,12 +82,72 @@
     margin-bottom: 0.5em;
 }
 
-.swiper {
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
-  
-  .swiper-slide {
-    width: auto;
-    text-align: center;
-  }
+@media screen and (min-width: 1024px) {
+    
+    .carrossel__titulo {
+        font-size: 26px;
+        padding: 2em 0 0.7em 0;
+    }
+
+    .swiper-pagination {
+        margin-block: 1em 3em;
+    }
+
+    .swiper-pagination-bullet, .swiper-pagination-bullet-active {
+        width: 0.6em;
+        height: 0.6em;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+        margin: 0.5em;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .card {
+      width: 40%;
+      margin: 3em auto;  
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel__titulo {
+        font-size: 32px;
+        padding: 1.5em 0 0.7em 0;
+    }
+
+    .container__carrossel {
+        display: flex;
+        align-items: center;
+        padding: 2em 10vw 3em 10vw;
+    }
+
+    .swiper-pagination {
+        margin-block: 0 1em;
+    }
+
+    .card {
+        width: 55%;
+        margin-left: 2em;
+    }
+
+    .descrisao {
+        margin-right: 2em;
+    }
+
+    .descrisao__titulo {
+        font-size: 32px;
+    }
+    
+    .descrisao__titulo-livro {
+        margin-block: 1em;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 40%;
+    }
+}

@@ -12,7 +12,7 @@
 .topicos__titulo {
     color: var(--branco);
     font-weight: 300;
-    margin-bottom: 2em;
+    margin-block: 0.5em 2em;
 }
 
 .topicos__lista {
@@ -28,8 +28,47 @@
 .topicos__item-texto {
     text-decoration: none;
     color: var(--branco);
-    padding: 1.2em 1.2em;
+    padding: 1.2em;
     background-color: var(--laranja);
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .topicos {
+        padding-top: 0em;
+    }
+
+    .topicos__container {
+        padding: 1.5em 6.5em;
+    }
+    
+
+    .topicos__titulo {
+        color: var(--branco);
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 2em;
+    }
+
+    .topicos__item {
+    margin:  2.7em 0.7em;
+    }
+
+    .topicos__item-texto {
+        padding: 1em;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .topicos__container {
+        padding: 4em 25%;
+    }
+
+    .topicos__titulo {
+        font-size: 32px;
+    }
 }
