@@ -36,16 +36,24 @@
                 <img src="assets/Logo.svg" alt="Logo alura books" class="container__imagem">
             </div>
             <div class="container">
-                <a href="#"><img src="assets/Favoritos.svg" alt="iconi Favoritos" class="container__imagem"></a>
-                <a href="#"><img src="assets/Compras.svg" alt="iconi Compras" class="container__imagem"></a>
-                <a href="#"><img src="assets/Usuario.svg" alt="iconi Usuário" class="container__imagem"></a>
+                <a href="#">
+                    <img src="assets/Favoritos.svg" alt="iconi Favoritos" class="container__imagem">
+                </a>
+                <a href="#">
+                    <img src="assets/Compras.svg" alt="iconi Compras" class="container__imagem">
+                </a>
+                <a href="#">
+                    <img src="assets/Usuario.svg" alt="iconi Usuário" class="container__imagem">
+                </a>
             </div>
         </header>
+
         <section class="banner">
             <h2 class="banner__titulo">Já sabe por onde começar?</h2>
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
+
         <section class="carrossel">
             <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
             <!-- Slider main container -->
@@ -54,13 +62,19 @@
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="./assets/ApacheKafka.svg" alt="livro ApacheKafka"></div>
-                <div class="swiper-slide"><img src="./assets/Liderança.svg" alt="livro Liderança"></div>
-                <div class="swiper-slide"><img src="./assets/Javascript.svg" alt="livro Javascript"></div>
-                <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt="livro React Native"></div>
-                <div class="swiper-slide"><img src="./assets/Tuning.svg" alt="livro SQL"></div>
-                <div class="swiper-slide"><img src="./assets/UX.svg" alt="livro UX"></div>
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./assets/Liderança.svg" alt="livro Liderança">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/Javascript.svg" alt="livro Javascript">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/ReactNative.svg" alt="livro React Native">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/ApacheKafka.svg" alt="livro ApacheKafka">
+                    </div>
                 </div>
             
                 <!-- If we need navigation buttons -->
@@ -90,6 +104,7 @@
                 </div>
             </div>
         </section>
+
         <section class="carrossel">
             <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
             <!-- Slider main container -->
@@ -98,13 +113,19 @@
                 <!-- If we need pagination -->
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="./assets/ApacheKafka.svg" alt="livro ApacheKafka"></div>
-                <div class="swiper-slide"><img src="./assets/Liderança.svg" alt="livro Liderança"></div>
-                <div class="swiper-slide"><img src="./assets/Javascript.svg" alt="livro Javascript"></div>
-                <div class="swiper-slide"><img src="./assets/ReactNative.svg" alt="livro React Native"></div>
-                <div class="swiper-slide"><img src="./assets/Tuning.svg" alt="livro SQL"></div>
-                <div class="swiper-slide"><img src="./assets/UX.svg" alt="livro UX"></div>
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="./assets/Gestão.svg" alt="livro Gestão">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/Tuning.svg" alt="livro SQL">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/UX.svg" alt="livro UX">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/Portugol.svg" alt="livro Portugol">
+                    </div>
                 </div>
             
                 <!-- If we need navigation buttons -->
@@ -142,11 +163,57 @@
             </div>
         </section>
 
+        <section class="topicos">
+            <div class="topicos__container">
+                <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+                <ul class="topicos__lista">
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">Android</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">Marketing Digital</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">Agile</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">Startups</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">HTML & CSS</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">Python</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">OO</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="" class="topicos__item-texto">Java</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="cadastro">
+            <h2 class="cadastro__titulo">Fique por dentro das novidades!</h2>
+            <p class="cadastro__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <input type="email" placeholder="Cadastre seu e-mail" class="cadastro__email">
+        </section>
+
+        <hr />
+
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Grupo alura</h2>
+        </footer>
+
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper', {
-                slidesPerView: 3,
-                spaceBetween: 10,  
+                slidesPerView: 'auto',
+                centeredSlides: true,
+                spaceBetween: 20,
+                loop: true, 
                 pagination: {
                     el: '.swiper-pagination',
                     type: 'bullets',
